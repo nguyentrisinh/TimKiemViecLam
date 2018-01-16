@@ -69,3 +69,9 @@
     border-color: #00a651;
     cursor: pointer;
 }
+
+.job-bg-style {
+    background-image: url(../images/background/job-list-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
