@@ -33,7 +33,7 @@
 
 html,
 body {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
 	color:#6f6f6f; 
 	overflow-x:hidden;
@@ -42,7 +42,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight:normal;
 }
 
@@ -53,7 +53,7 @@ ul {
 }
 
 a {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #00a651;
 }
 
@@ -100,7 +100,7 @@ input:focus, textarea:focus, select:focus, .form-control:focus {
 .title {
 	line-height: 34px;
 	color: #ffffff;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 }
 
@@ -2170,11 +2170,11 @@ input:-moz-placeholder {
 	float: left;
 }
 
-.job-ad-item .ad-info {
+.job-ad-item .ad-info,.card-info {
 	padding: 5px 25px;
 }
 
-.job-ad-item .ad-info span {
+.job-ad-item .ad-info span,.card-info {
 	color: #000;
 	font-size: 20px;	
 	display: block;
@@ -2187,7 +2187,7 @@ input:-moz-placeholder {
 	font-weight: 300;
 }
 
-.job-ad-item .ad-info a.title {
+.job-ad-item .ad-info a.title,.card-title {
 	font-weight: 300;
 	color: #000;
 	font-weight: 500;
@@ -2198,19 +2198,19 @@ input:-moz-placeholder {
 }
 
 .job-ad-item .ad-meta a,
-.job-ad-item .ad-meta li {
+.job-ad-item .ad-meta li, .card-item {
 	font-size: 14px;
 	color: #a0a0a0;
 }
 
 .job-ad-item .ad-meta i,
-.job-ad-item .ad-meta a i {
+.job-ad-item .ad-meta a i,.card-detail a i {
 	font-size: 20px;
 	margin-right: 10px;
 }
 
 .job-ad-item .ad-info span a:hover,
-.job-ad-item a:hover {
+.job-ad-item a:hover,.card-item:hover {
 	color: #00a651;
 }
 
@@ -3211,4 +3211,38 @@ input, select, a, .transition,
   background: #662d91;
 }
 
+
+.card{
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #f3f3f3;
+	margin: 18px 0;
+	border-radius: 2px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);}
+
+
+
+.hover-effect:hover{
+	cursor: pointer;
+	box-shadow: 0 3px 6px rgba(243,243,243,1), 0 3px 6px rgba(243,243,243,1);
+}
+
+.card-wrap-thumbnail{
+	position: relative;
+	padding-top: 56.25%;
+}
+
+.card-thumbnail{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.card-item{
+	font-size: 14px;
+	color: #a0a0a0;
+}
 
