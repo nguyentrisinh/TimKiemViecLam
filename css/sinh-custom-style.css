@@ -75,3 +75,32 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.list-style {
+    list-style-type: disc;
+    font-size: 16px !important;
+    padding-left: 50px;
+}
+
+.header-bold-style {
+    font-weight: bold !important;
+    font-size: 24px !important;
+}
+
+.content-font-size {
+    font-size: 16px !important;
+}
+
+.benefits {
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.company-info-title-style {
+    font-weight: bold!important;
+}
+
+.post-your-resume {
+    background-image: url(../images/background/1.jpg);
+    padding: 40px 0 60px;
+}
