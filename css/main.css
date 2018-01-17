@@ -1684,6 +1684,11 @@ a.verified i {
 	padding-left: 30px;
 }
 
+.user li a{
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
 .job-profile .user h2 {
 	font-weight: 300;
 	color: #2a2a2a;
@@ -1701,11 +1706,14 @@ a.verified i {
 }
 
 .job-profile .my-ads,
-.job-profile .favorites {
+.job-profile .favorites,.total-jobs {
     float: left;
     padding: 30px 40px;
     text-align: center;
     border-left: 1px solid #f5f5f5;
+}
+.total-jobs{
+	border: none;
 }
 
 .job-profile .my3-ads {
@@ -2620,6 +2628,10 @@ input:-moz-placeholder {
 	font-weight: 500;
 }
 
+.resume-content h3.f-25{
+	font-size: 25px;
+}
+
 .resume-content .career-info span,
 .resume-content .declaration-info span {
 	margin-bottom: 25px;
@@ -2642,7 +2654,7 @@ input:-moz-placeholder {
 
 .work-history ul li,
 .educational-info ul li {
-	margin-bottom: 55px;
+	/*margin-bottom: 55px;*/
 	position: relative;
 }
 
@@ -2652,13 +2664,13 @@ input:-moz-placeholder {
 
 .work-history ul li:after,
 .educational-info ul li:after {
-	position: absolute;
-	content: "";
-	bottom: -25px;
-	left: 0;
-	width: 85%;
-	height: 1px;
-	background-color: #f1f1f1;
+	/*position: absolute;*/
+	/*content: "";*/
+	/*bottom: -25px;*/
+	/*left: 0;*/
+	/*width: 85%;*/
+	/*height: 1px;*/
+	/*background-color: #f1f1f1;*/
 }
 
 .work-history ul li:last-child:after {
@@ -3246,3 +3258,16 @@ input, select, a, .transition,
 	color: #a0a0a0;
 }
 
+.banner-company{
+	width: 100%;
+}
+
+.company-profile{
+	padding-bottom: 25px;
+}
+
+ul.ul{
+	padding-left: 20px;
+	/*list-style: disc;*/
+	list-style-type: disc;
+}

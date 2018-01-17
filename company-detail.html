@@ -20,7 +20,9 @@
     <link rel="stylesheet" href="css/sinh-custom-style.css">
 
     <!-- font -->
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300' rel='stylesheet' type='text/css'>
+    <!--<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300' rel='stylesheet' type='text/css'>-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=vietnamese"
+          rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Signika+Negative:400,300,600,700' rel='stylesheet' type='text/css'>
 
     <!-- icons -->
@@ -62,11 +64,11 @@
                     <ul class="nav navbar-nav">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="job-list.html">Job list</a></li>
-                        <li class="active"><a href="details.html">Job Details</a></li>
+                        <li><a href="details.html">Job Details</a></li>
                         <li><a href="resume.html">Resume</a></li>
-                        <li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Pages<span class="caret"></span></a>
+                        <li class="dropdown active"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Pages<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="profile.html">profile</a></li>
+                                <li class="active"><a href="profile.html">profile</a></li>
                                 <li><a href="post-resume.html">Post Resume</a></li>
                                 <li><a href="post.html">Job Post</a></li>
                                 <li><a href="edit-resume.html">Edit Resume</a></li>
@@ -97,378 +99,153 @@
     </nav><!-- navbar -->
 </header><!-- header -->
 
-<section class="job-bg page job-details-page">
+<section class=" job-bg-style page  ad-profile-page">
     <div class="container">
-        <div class="breadcrumb-section">
-            <ol class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="job-list.html">Engineer/Architects</a></li>
-                <li>UI & UX Designer</li>
-            </ol><!-- breadcrumb -->
-            <h2 class="title">Creative & Design</h2>
-        </div><!-- breadcrumb -->
+        <div class="job-profile section">
+            <img src="images/background/vng.png" alt="" class="banner-company">
+            <div class="user-profile company-profile">
+                <div class="user-images">
+                    <img src="http://placehold.it/150x150" alt="User Images" class="img-responsive">
+                </div>
+                <div class="user">
+                    <h2><a>VNG</a></h2>
+                    <h5>
 
-        <div class="banner-form banner-form-full job-list-form">
-            <form action="#">
-                <!-- category-change -->
-                <div class="dropdown category-dropdown">
-                    <a data-toggle="dropdown" href="#"><span class="change-text">Job Category</span> <i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu category-change">
-                        <li><a href="#">Customer Service</a></li>
-                        <li><a href="#">Software Engineer</a></li>
-                        <li><a href="#">Program Development</a></li>
-                        <li><a href="#">Project Manager</a></li>
-                        <li><a href="#">Graphics Designer</a></li>
-                    </ul>
-                </div><!-- category-change -->
 
-                <!-- language-dropdown -->
-                <div class="dropdown category-dropdown language-dropdown">
-                    <a data-toggle="dropdown" href="#"><span class="change-text">Job Location</span> <i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu category-change language-change">
-                        <li><a href="#">Location 1</a></li>
-                        <li><a href="#">Location 2</a></li>
-                        <li><a href="#">Location 3</a></li>
-                    </ul>
-                </div><!-- language-dropdown -->
 
-                <input type="text" class="form-control" placeholder="Type your key word">
-                <button type="submit" class="btn btn-primary" value="Search">Search</button>
-            </form>
-        </div><!-- banner-form -->
+                            <div class="card-detail">
+                                <ul>
+                                    <li><a href="#" class="card-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Quận 11, Tp Hồ Chí Minh</a></li>
+                                    <li><a href="#" class="card-item"><i class="fa fa-building-o" aria-hidden="true"></i>Hơn 300 người</a></li>
+                                    <li><a href="#" class="card-item"><i class="fa fa-clock-o" aria-hidden="true"></i>Trên 5 năm hoạt động</a></li>
+                                    <li><a href="#" class="card-item"><i class="fa fa-heart-o" aria-hidden="true"></i>Có lương cho thực tập sinh</a></li>
+                                </ul>
+                            </div><!-- ad-meta -->
+                    </h5>
+                </div>
 
-        <div class="job-details">
-            <div class="section job-ad-item">
-                <div class="item-info">
-                    <div class="item-image-box">
-                        <div class="item-image">
-                            <img src="images/job/4.png" alt="Image" class="img-responsive">
-                        </div><!-- item-image -->
+                <div class="favorites-user">
+                    <!--<div class="my-ads">-->
+                        <!--<a href="applied-job.html">29<small>Apply Job</small></a>-->
+                    <!--</div>-->
+                    <div class="total-jobs">
+                        <a href="bookmark.html">15<small>Công việc</small></a>
                     </div>
+                </div>
+            </div><!-- user-profile -->
 
-                    <div class="ad-info">
-                        <span><span><a href="#" class="title">Human Resource Manager</a></span> @ <a href="#"> Dropbox Inc</a></span>
-                        <div class="ad-meta">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>San Francisco, CA, US</a></li>
-                                <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Full Time</a></li>
-                                <li><i class="fa fa-money" aria-hidden="true"></i>$25,000 - $35,000</li>
-                                <li><a href="#"><i class="fa fa-tags" aria-hidden="true"></i>HR/Org. Development</a></li>
-                                <li><i class="fa fa-hourglass-start" aria-hidden="true"></i>Application Deadline : Jan 10, 2017</li>
-                            </ul>
-                        </div><!-- ad-meta -->
-                    </div><!-- ad-info -->
-                </div><!-- item-info -->
-                <div class="social-media">
-                    <div class="button">
-                        <a href="#" class="btn btn-primary"><i class="fa fa-briefcase" aria-hidden="true"></i>Apply For This Job</a>
-                        <a href="#" class="btn btn-primary bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>Bookmark</a>
-                    </div>
-                    <ul class="share-social">
-                        <li>Share this ad</li>
-                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-tumblr-square" aria-hidden="true"></i></a></li>
+
+        </div><!-- ad-profile -->
+
+        <div class="resume-content">
+            <div class="career-objective section">
+                <div class="icons">
+                    <i class="fa fa-black-tie" aria-hidden="true"></i>
+                </div>
+                <div class="career-info">
+                    <h3 class="f-25">Giới thiệu công ty</h3>
+                    <h4>Make the Internet change Vietnamese lives</h4>
+                    <p><span>VNG believes in the power of the Internet and sees it as its mission to bring Internet users meaningful experiences. Each day, millions of young Vietnamese entertain, network and make friends, shop online or engage in social activities through VNG products, which are the ways VNG creates value for the society.</span></p>
+                    <!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni।</p>-->
+                    <h4>Mission and core values</h4>
+                    <ul class="ul company-detail-list-style">
+                        <li>Passion</li>
+                        <li>Learning</li>
+                        <li>Teamwork</li>
+                        <li>Integrity</li>
+                        <li>Dynamic</li>
+                        <li>Customer</li>
+                    </ul>
+                    <h4>Our Services</h4>
+                    <ul class="ul company-detail-list-style">
+                        <li>Online content and Entertainment</li>
+                        <li>Comunity Software</li>
+                        <li>Utility Software</li>
+                        <li>E-Commerce</li>
                     </ul>
                 </div>
-            </div><!-- job-ad-item -->
+            </div><!-- career-objective -->
 
-            <div class="job-details-info">
-                <div class="row">
-                    <div class="col-sm-8">
-                     <!--   <div class="section job-description">
-                            <div class="description-info">
-                                <h1>Description</h1>
-                                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni।</p>
-                            </div>
-                            <div class="responsibilities">
-                                <h1>Key Responsibilities:</h1>
-                                <p>-Execute all visual design stages of website design from concept to final hand-off to development-Create print advertisements, social media advertisements, client collateral & digital resizes according to Client demands With direction of the Creative team, input into new design ideas for client branding-Update & keep all agency collateral materials, including keeping records of Client's logos, fonts, images, etc.  </p>
-                            </div>
-                            <div class="requirements">
-                                <h1>Minimum Requirements</h1>
-                                <ul>
-                                    <li>Bachelor's Degree</li>
-                                    <li>2-5 years of relevant experience ( or equivalent educational experience)</li>
-                                    <li>Experience developing in Wordpress and other web design platforms</li>
-                                    <li>HTML, CSS and JavaScript experience a plus</li>
-                                    <li>In depth knowledge & technical experience of Photoshop, Illustrator, InDesign, Adobe PDF, Keynote, PowerPoint, Microsoft Word & Excel</li>
-                                    <li>Exceptional eye for design, deep understanding of creativity and ability to recognize fresh approaches to Advertising </li>
-                                    <li>Must be fluent in Spanish; working written and spoken proficiency</li>
-                                    <li>**All applicants must be eligible to work in the U.S. without sponsorship</li>
-                                </ul>
-                            </div>
-                        </div>-->
+            <div class="work-history section">
+                <div class="icons">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                </div>
+                <div class="work-info">
+                    <h3>Danh sách tuyển dụng</h3>
 
-
-                        <!--jghdfjg-->
-                        <div class="section latest-jobs-ads" >
-                            <div class="section-title tab-manu">
-                               <!-- <h4>Latest Jobs</h4>-->
-                                <!-- Nav tabs -->
-                                <ul class="nav  nav-tabs"  role="tablist">
-                                    <li role="presentation"><a href="#hot-jobs" data-toggle="tab">6 Đánh giá</a></li>
-                                  <!--  <li role="presentation"><a href="#recent-jobs" data-toggle="tab">Recent Jobs</a></li>-->
-                                    <li role="presentation" class="active"><a href="#popular-jobs" data-toggle="tab">Tổng quan</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="tab-content">
-                                	<div role="tabpanel" class="tab-pane fade in" id="hot-jobs">
-
-
-
-                                        <div class="job-ad-item">
-                                            <div class="item-info">
-
-                                                <div class="row">
-                                                    <div class="col-md-2 col-xs-12">
-
-                                                        <div class="item-image-box">
-                                                            <div class="item-image">
-                                                                <a href="job-details.html"><img src="images/job/3.png" alt="Image" class="img-responsive"></a>
-                                                            </div>&lt;!&ndash; item-image &ndash;&gt;
-                                                        </div>
-                                                    </div>
-
-                                        &lt;!&ndash;		<div class="ad-info">
-                                                    <span><a href="job-details.html" class=title>CTO</a> @ <a href="#">Volja Events & Entertainment</a></span>
-                                                    <div class="ad-meta">
-                                                        <ul>
-                                                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>San Francisco, CA, US </a></li>
-                                                            <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Full Time</a></li>
-                                                            <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>$25,000 - $35,000</a></li>
-                                                        </ul>
-                                                    </div>&lt;!&ndash; ad-meta &ndash;&gt;
-
-                                                </div>&ndash;&gt;&lt;!&ndash; ad-info &ndash;&gt;
-                                            &lt;!&ndash;	<div class="button">
-                                                    <a href="#" class="btn btn-primary">Apply Now</a>
-                                                </div>&ndash;&gt;
-
-                                                    <div class="col-md-10 no-padding col-xs-12">
-                                                        <div class="ad-info no-padding-right fix-width">
-                                                            <div class="row">
-                                                                <span><a href="job-details.html" class="title">Project Manager</a> @ <a href="#">Dominos Pizza</a></span>
-                                                                <div class="ad-meta">
-                                                                    <ul>
-                                                                        <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>San
-                                                                            Francisco, CA, US </a></li>
-                                                                        <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Full
-                                                                            Time</a></li>
-                                                                        <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>$25,000 -
-                                                                            $35,000</a></li>
-                                                                    </ul>
-                                                                </div>&lt;!&ndash; ad-meta &ndash;&gt;
-                                                            </div>
-                                                            <div class="row job-list-description">
-                                                                <p>Etiam ut laoreet nisl. Nam vel nibh quis lorem tincidunt hendrerit. Donec mollis imperdiet diam, et malesuada ex viverra vel. Phasellus malesuada euismod massa, a sodales orci efficitur sed. Proin commodo enim vitae arcu semper lacinia. Proin tincidunt maximus ex vel vehicula. Phasellus consequat justo magna, ut convallis mauris feugiat ut. Nunc ultrices rhoncus ligula, eu tincidunt velit. Nam in lectus erat. Praesent laoreet efficitur lorem pulvinar mattis. Vivamus imperdiet tellus ullamcorper, egestas tellus non, iaculis metus.</p>
-                                                            </div>
-                                                            <div class="row">
-                                                                <a class="ilabel">C#</a>
-                                                                <a class="ilabel">Python</a>
-                                                                <a class="ilabel">Javascript</a>
-                                                                <a class="ilabel">Nginx</a>
-                                                                <a class="ilabel">Html</a>
-                                                            </div>
-                                                        </div>&lt;!&ndash; ad-info &ndash;&gt;
-                                                    </div>
-                                                </div>
-                                            </div>&lt;!&ndash; item-info &ndash;&gt;
-                                        </div>&lt;!&ndash; ad-item &ndash;&gt;
-
-                                        <div class="job-ad-item">
-                                            <div class="item-info">
-                                                <div class="item-image-box">
-                                                    <div class="item-image">
-                                                        <a href="job-details.html"><img src="images/job/1.png" alt="Image" class="img-responsive"></a>
-                                                    </div>&lt;!&ndash; item-image &ndash;&gt;
-                                                </div>
-
-                                                <div class="ad-info">
-                                                    <span><a href="job-details.html" class="title">Project Manager</a> @ <a href="#">Dominos Pizza</a></span>
-                                                    <div class="ad-meta">
-                                                        <ul>
-                                                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>San Francisco, CA, US </a></li>
-                                                            <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Full Time</a></li>
-                                                            <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>$25,000 - $35,000</a></li>
-                                                            &lt;!&ndash;<li><a href="#"><i class="fa fa-tags" aria-hidden="true"></i>HR/Org. Development</a></li>&ndash;&gt;
-                                                        </ul>
-                                                    </div>&lt;!&ndash; ad-meta &ndash;&gt;
-                                                </div>&lt;!&ndash; ad-info &ndash;&gt;
-                                                <div class="button">
-                                                    <a href="#" class="btn btn-primary">Apply Now</a>
-                                                </div>
-                                            </div>&lt;!&ndash; item-info &ndash;&gt;
-                                        </div>&lt;!&ndash; ad-item &ndash;&gt;
-
-                                        <div class="job-ad-item">
-                                            <div class="item-info">
-                                                <div class="item-image-box">
-                                                    <div class="item-image">
-                                                        <a href="job-details.html"><img src="images/job/2.png" alt="Image" class="img-responsive"></a>
-                                                    </div>&lt;!&ndash; item-image &ndash;&gt;
-                                                </div>
-
-                                                <div class="ad-info">
-                                                    <span><a href="job-details.html" class="title">Graphics Designer</a> @ <a href="#">AOK Security</a></span>
-                                                    <div class="ad-meta">
-                                                        <ul>
-                                                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>San Francisco, CA, US </a></li>
-                                                            <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Full Time</a></li>
-                                                            <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>$25,000 - $35,000</a></li>
-                                                            <li><a href="#"><i class="fa fa-tags" aria-hidden="true"></i>HR/Org. Development</a></li>
-                                                        </ul>
-                                                    </div>&lt;!&ndash; ad-meta &ndash;&gt;
-                                                </div>&lt;!&ndash; ad-info &ndash;&gt;
-                                                <div class="button">
-                                                    <a href="#" class="btn btn-primary">Apply Now</a>
-                                                </div>
-                                            </div>&lt;!&ndash; item-info &ndash;&gt;
-                                        </div>&lt;!&ndash; ad-item &ndash;&gt;
-
-                                        <div class="job-ad-item">
-                                            <div class="item-info">
-                                                <div class="item-image-box">
-                                                    <div class="item-image">
-                                                        <a href="job-details.html"><img src="images/job/4.png" alt="Image" class="img-responsive"></a>
-                                                    </div>&lt;!&ndash; item-image &ndash;&gt;
-                                                </div>
-
-                                                <div class="ad-info">
-                                                    <span><a href="job-details.html" class="title">Human Resource Manager</a> @ <a href="#">Dropbox Inc</a></span>
-                                                    <div class="ad-meta">
-                                                        <ul>
-                                                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>San Francisco, CA, US </a></li>
-                                                            <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Full Time</a></li>
-                                                            <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>$25,000 - $35,000</a></li>
-                                                            <li><a href="#"><i class="fa fa-tags" aria-hidden="true"></i>HR/Org. Development</a></li>
-                                                        </ul>
-                                                    </div>&lt;!&ndash; ad-meta &ndash;&gt;
-                                                </div>&lt;!&ndash; ad-info &ndash;&gt;
-                                                <div class="button">
-                                                    <a href="#" class="btn btn-primary">Apply Now</a>
-                                                </div>
-                                            </div>&lt;!&ndash; item-info &ndash;&gt;
-                                        </div>&lt;!&ndash; ad-item &ndash;&gt;
-                                    </div><!-- tab-pane -->
-
-                                <!--		<div role="tabpanel" class="tab-pane fade in" id="recent-jobs">
-
-                                            <div class="job-ad-item">
-                                                <div class="item-info">
-                                                    <div class="item-image-box">
-                                                        <div class="item-image">
-                                                            <a href="job-details.html"><img src="images/job/2.png" alt="Image" class="img-responsive"></a>
-                                                        </div>&lt;!&ndash; item-image &ndash;&gt;
-                                                    </div>
-
-                                                    <div class="ad-info">
-                                                        <span><a href="job-details.html" class=title>Graphics Designer</a> @ <a href="#">AOK Security</a></span>
-                                                        <div class="ad-meta">
-                                                            <ul>
-                                                                <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>San Francisco, CA, US </a></li>
-                                                                <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Full Time</a></li>
-                                                                <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>$25,000 - $35,000</a></li>
-                                                                <li><a href="#"><i class="fa fa-tags" aria-hidden="true"></i>HR/Org. Development</a></li>
-                                                            </ul>
-                                                        </div>&lt;!&ndash; ad-meta &ndash;&gt;
-                                                    </div>&lt;!&ndash; ad-info &ndash;&gt;
-                                                    <div class="button">
-                                                        <a href="#" class="btn btn-primary">Apply Now</a>
-                                                    </div>
-                                                </div>&lt;!&ndash; item-info &ndash;&gt;
-                                            </div>&lt;!&ndash; ad-item &ndash;&gt;
-
-                                            <div class="job-ad-item">
-                                                <div class="item-info">
-                                                    <div class="item-image-box">
-                                                        <div class="item-image">
-                                                            <a href="job-details.html"><img src="images/job/1.png" alt="Image" class="img-responsive"></a>
-                                                        </div>&lt;!&ndash; item-image &ndash;&gt;
-                                                    </div>
-
-                                                    <div class="ad-info">
-                                                        <span><a href="job-details.html" class=title>Project Manager</a> @ <a href="#">Dominos Pizza</a></span>
-                                                        <div class="ad-meta">
-                                                            <ul>
-                                                                <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>San Francisco, CA, US </a></li>
-                                                                <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Full Time</a></li>
-                                                                <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>$25,000 - $35,000</a></li>
-                                                                <li><a href="#"><i class="fa fa-tags" aria-hidden="true"></i>HR/Org. Development</a></li>
-                                                            </ul>
-                                                        </div>&lt;!&ndash; ad-meta &ndash;&gt;
-                                                    </div>&lt;!&ndash; ad-info &ndash;&gt;
-                                                    <div class="button">
-                                                        <a href="#" class="btn btn-primary">Apply Now</a>
-                                                    </div>
-                                                </div>&lt;!&ndash; item-info &ndash;&gt;
-                                            </div>&lt;!&ndash; ad-item &ndash;&gt;
-
-                                            <div class="job-ad-item">
-                                                <div class="item-info">
-                                                    <div class="item-image-box">
-                                                        <div class="item-image">
-                                                            <a href="job-details.html"><img src="images/job/4.png" alt="Image" class="img-responsive"></a>
-                                                        </div>&lt;!&ndash; item-image &ndash;&gt;
-                                                    </div>
-
-                                                    <div class="ad-info">
-                                                        <span><a href="job-details.html" class="title">Human Resource Manager</a> @ <a href="#">Dropbox Inc</a></span>
-                                                        <div class="ad-meta">
-                                                            <ul>
-                                                                <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>San Francisco, CA, US </a></li>
-                                                                <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Full Time</a></li>
-                                                                <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>$25,000 - $35,000</a></li>
-                                                                <li><a href="#"><i class="fa fa-tags" aria-hidden="true"></i>HR/Org. Development</a></li>
-                                                            </ul>
-                                                        </div>&lt;!&ndash; ad-meta &ndash;&gt;
-                                                    </div>&lt;!&ndash; ad-info &ndash;&gt;
-                                                    <div class="button">
-                                                        <a href="#" class="btn btn-primary">Apply Now</a>
-                                                    </div>
-                                                </div>&lt;!&ndash; item-info &ndash;&gt;
-                                            </div>&lt;!&ndash; ad-item &ndash;&gt;
-
-                                            <div class="job-ad-item">
-                                                <div class="item-info">
-                                                    <div class="item-image-box">
-                                                        <div class="item-image">
-                                                            <a href="job-details.html"><img src="images/job/3.png" alt="Image" class="img-responsive"></a>
-                                                        </div>&lt;!&ndash; item-image &ndash;&gt;
-                                                    </div>
-
-                                                    <div class="ad-info">
-                                                        <span><a href="job-details.html" class="title">CTO</a> @ <a href="#">Volja Events & Entertainment</a></span>
-                                                        <div class="ad-meta">
-                                                            <ul>
-                                                                <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>San Francisco, CA, US </a></li>
-                                                                <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Full Time</a></li>
-                                                                <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>$25,000 - $35,000</a></li>
-                                                                <li><a href="#"><i class="fa fa-tags" aria-hidden="true"></i>HR/Org. Development</a></li>
-                                                            </ul>
-                                                        </div>&lt;!&ndash; ad-meta &ndash;&gt;
-                                                    </div>&lt;!&ndash; ad-info &ndash;&gt;
-                                                    <div class="button">
-                                                        <a href="#" class="btn btn-primary">Apply Now</a>
-                                                    </div>
-                                                </div>&lt;!&ndash; item-info &ndash;&gt;
-                                            </div>&lt;!&ndash; ad-item &ndash;&gt;
-                                        </div>--><!-- tab-pane -->
-
-                                <div role="tabpanel" class="tab-pane fade in active" id="popular-jobs">
-                                    <div class="job-description">
-                                    <h3>BeeSight Soft - Trusted software outsourcing provider</h3>
-                                    <p>BeeSight Soft was founded in 2011 by young and passionate of technologists. Since that time, we have been involved in releasing numerous projects for diverse business industries.</p>
-                                    <p>Our vision is becoming a trusted software outsourcing provider for our client. BeeSight Soft not only provides software developers, but also supplies a software development ecosystem. Together, we help our clients make their own about what to build and provide expert team to build it.</p>
+                    <div class="job-ad-item">
+                        <div class="item-info">
+                            <div class="row">
+                                <div class="col-md-2 col-xs-12 no-padding-right">
+                                    <!--<div class="item-image-box">-->
+                                    <div class="">
+                                        <div class="item-image">
+                                            <a href="details.html"><img src="images/logo_95x85/vng.png" alt="Image"
+                                                                        class="img-responsive"></a>
+                                        </div><!-- item-image -->
                                     </div>
-                                    <div class="job-description">
-                                        <h3>Chuyên môn của chúng tôi</h3>
-                                        <div class="row" style="padding-left: 12px;">
+                                </div>
+                                <div class="col-md-10 no-padding col-xs-12">
+                                    <div class="ad-info no-padding-right no-padding-left fix-width">
+                                        <div class="row">
+                                            <span><a href="details.html" class="title">Mobile Development Fresher</a> - <a href="#">VNG</a></span>
+                                            <div class="ad-meta">
+                                                <ul>
+                                                    <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>Quận 11, Tp Hồ Chí Minh</a></li>
+                                                    <li><a href="#"><i class="fa fa-tags" aria-hidden="true"></i>Fresher</a></li>
+                                                    <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Part Time</a></li>
+                                                    <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>Lương cạnh tranh</a></li>
+                                                </ul>
+                                            </div><!-- ad-meta -->
+                                        </div>
+                                        <div class="row job-list-description">
+                                            <p>VNG Fresher là chương trình Tuyển dụng & Ðào Tạo nhằm phát hiện ra những tài năng trẻ, năng động, ham học hỏi và có kiến thức chuyên môn cao để trở thành chuyên viên cao cấp của VNG.</p>
+                                        </div>
+                                        <div class="row">
+                                            <a class="ilabel">Data Structure</a>
+                                            <a class="ilabel">OOP</a>
+                                            <a class="ilabel">Logic</a>
+                                            <a class="ilabel">Android</a>
+                                            <a class="ilabel">IOS</a>
+                                        </div>
+                                    </div><!-- ad-info -->
+                                </div>
+                            </div>
+
+
+
+                        </div><!-- item-info -->
+                    </div><!-- job-ad-item VNG-->
+
+                    <div class="job-ad-item">
+                        <div class="item-info">
+                            <div class="row">
+                                <div class="col-md-2 col-xs-12 no-padding-right">
+                                    <!--<div class="item-image-box">-->
+                                    <div class="">
+                                        <div class="item-image">
+                                            <a href="details.html"><img src="images/logo_95x85/vng.png" alt="Image"
+                                                                        class="img-responsive"></a>
+                                        </div><!-- item-image -->
+                                    </div>
+                                </div>
+                                <div class="col-md-10 no-padding col-xs-12">
+                                    <div class="ad-info no-padding-right no-padding-left fix-width">
+                                        <div class="row">
+                                            <span><a href="details.html" class="title">Internship Android/IOS Developer</a> - <a href="#">VNG</a></span>
+                                            <div class="ad-meta">
+                                                <ul>
+                                                    <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>Quận 11, Tp Hồ Chí Minh</a></li>
+                                                    <li><a href="#"><i class="fa fa-tags" aria-hidden="true"></i>Internship</a></li>
+                                                    <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Part Time</a></li>
+                                                    <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>Có hỗ trợ thực tập</a></li>
+                                                </ul>
+                                            </div><!-- ad-meta -->
+                                        </div>
+                                        <div class="row job-list-description">
+                                            <p>We are looking for engineers who love technologies to join our team. You will have the opportunity to work with a skillful and talented team to build products that serve millions of users.</p>
+                                        </div>
+                                        <div class="row">
                                             <a class="ilabel">Java</a>
                                             <a class="ilabel">React Native</a>
                                             <a class="ilabel">Android</a>
@@ -476,74 +253,263 @@
                                             <a class="ilabel">GPA</a>
                                             <a class="ilabel">SQL</a>
                                         </div>
-                                        <div style="padding-top: 15px;">
-                                        <p>- Native mobile apps for iOS, Android </p>
-                                        <p>- Custom backend with PHP, NodeJS </p>
-                                        <p>- Flexible web interface base on AngularJS, Bootstrap, Ionic, ...</p>
-                                        </div>
-                                    </div>
-
-                                </div><!-- tab-pane -->
-                            </div><!-- tab-content -->
-                            <!-- pagination  -->
-
-                            <div class="nga-custom-firstseeall">
-                                <a href="#" class="nga-custom-seeall" >See All</a>
+                                    </div><!-- ad-info -->
+                                </div>
                             </div>
-                        </div><!-- trending ads -->
-                        <!--kvjdfbhdfjb-->
 
 
 
+                        </div><!-- item-info -->
+                    </div><!-- job-ad-item VNG-->
 
+                    <div class="job-ad-item">
+                        <div class="item-info">
+                            <div class="row">
+                                <div class="col-md-2 col-xs-12 no-padding-right">
+                                    <!--<div class="item-image-box">-->
+                                    <div class="">
+                                        <div class="item-image">
+                                            <a href="details.html"><img src="images/logo_95x85/vng.png" alt="Image"
+                                                                        class="img-responsive"></a>
+                                        </div><!-- item-image -->
+                                    </div>
+                                </div>
+                                <div class="col-md-10 no-padding col-xs-12">
+                                    <div class="ad-info no-padding-right no-padding-left fix-width">
+                                        <div class="row">
+                                            <span><a href="details.html" class="title">Internship Java Developer</a> - <a href="#">VNG</a></span>
+                                            <div class="ad-meta">
+                                                <ul>
+                                                    <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>Quận 11, Tp Hồ Chí Minh</a></li>
+                                                    <li><a href="#"><i class="fa fa-tags" aria-hidden="true"></i>Internship</a></li>
+                                                    <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Part Time</a></li>
+                                                    <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>Có hỗ trợ thực tập</a></li>
+                                                </ul>
+                                            </div><!-- ad-meta -->
+                                        </div>
+                                        <div class="row job-list-description">
+                                            <p>Coming to VNG, you will work directly with foreign customers and trendy projects in Fintech, Big Data, Mobile, IoT, BPM, Biotech, Machine Learning, etc. Our Scrum teams are growing in dynamic spirit with teamwork & passion. You will be offered premium benefits and attractive salary. Besides, we are focusing on developing your knowledge, skills and English wherever you work in Ho Chi Minh, Da Nang or Can Tho.</p>
+                                        </div>
+                                        <div class="row">
+                                            <a class="ilabel">Java</a>
+                                            <a class="ilabel">GPA</a>
+                                            <a class="ilabel">English</a>
+                                        </div>
+                                    </div><!-- ad-info -->
+                                </div>
+                            </div>
+
+
+
+                        </div><!-- item-info -->
+                    </div><!-- job-ad-item VNG-->
+
+                    <div class="job-ad-item">
+                        <div class="item-info">
+                            <div class="row">
+                                <div class="col-md-2 col-xs-12 no-padding-right">
+                                    <!--<div class="item-image-box">-->
+                                    <div class="">
+                                        <div class="item-image">
+                                            <a href="details.html"><img src="images/logo_95x85/vng.png" alt="Image"
+                                                                        class="img-responsive"></a>
+                                        </div><!-- item-image -->
+                                    </div>
+                                </div>
+                                <div class="col-md-10 no-padding col-xs-12">
+                                    <div class="ad-info no-padding-right no-padding-left fix-width">
+                                        <div class="row">
+                                            <span><a href="details.html" class="title">Fresher Developer</a> @ <a href="#">VNG</a></span>
+                                            <div class="ad-meta">
+                                                <ul>
+                                                    <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>Quận 11, Tp Hồ Chí Minh</a></li>
+                                                    <li><a href="#"><i class="fa fa-tags" aria-hidden="true"></i>Fresher</a></li>
+                                                    <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Full Time</a></li>
+                                                    <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>7.000.000 - 10.000.000</a></li>
+                                                </ul>
+                                            </div><!-- ad-meta -->
+                                        </div>
+                                        <div class="row job-list-description">
+                                            <p>VNG là công ty 100% vốn Việt Nam, chuyên phát triển phần mềm. Khách hàng chủ yếu là các công ty phần mềm của Nhật Bản. Việc phát triển phần mềm cho thị trường Nhật Bản chiếm hơn 90% doanh số của Fujinet. FUJINET tuyển dụng, đào tạo tài năng trẻ, ưu tú, không ngừng nâng cao chất lượng, tuân thủ kỳ hạn giao hàng, bảo mật...</p>
+                                        </div>
+                                        <div class="row">
+                                            <a class="ilabel">Java</a>
+                                            <a class="ilabel">DotNet</a>
+                                            <a class="ilabel">Japanese</a>
+                                            <a class="ilabel">No Experience</a>
+                                            <a class="ilabel">IT</a>
+                                        </div>
+                                    </div><!-- ad-info -->
+                                </div>
+                            </div>
+
+
+
+                        </div><!-- item-info -->
+                    </div><!-- job-ad-item VNG-->
+
+
+                        <!-- pagination  -->
+                        <div class="text-center">
+                            <ul class="pagination ">
+                                <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+                            </ul>
+                        </div><!-- pagination  -->
                     </div>
-                    <div class="col-sm-4">
-                        <div class="section job-short-info">
-                            <h1>Short Info</h1>
+                </div>
+
+
+            <!--<div class="educational-background section">-->
+                <!--<div class="icons">-->
+                    <!--<i class="fa fa-graduation-cap" aria-hidden="true"></i>-->
+                <!--</div>-->
+                <!--<div class="educational-info">-->
+                    <!--<h3>Education Background</h3>-->
+                    <!--<ul>-->
+                        <!--<li>-->
+                            <!--<h4>Masters of Arts @ Montana Satet University</h4>-->
+                            <!--<ul>-->
+                                <!--<li>Year: <span>1999 - 2001</span> </li>-->
+                                <!--<li>Concentration/Major: <span>Major in Accounting</span></li>-->
+                                <!--<li>Course Duration: <span>2 Years</span></li>-->
+                                <!--<li>Result: <span>4.00</span></li>-->
+                            <!--</ul>-->
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<h4>Bachalor of Arts @ Universty of Bristol</h4>-->
+                            <!--<ul>-->
+                                <!--<li>Year: <span>1999 - 2001</span> </li>-->
+                                <!--<li>Concentration/Major: <span>Major in Accounting</span></li>-->
+                                <!--<li>Course Duration: <span>2 Years</span></li>-->
+                                <!--<li>Result: <span>4.00</span></li>-->
+                            <!--</ul>-->
+                            <!--<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<h4>Diploma in Graphics Design @ Cincinnati Christian University</h4>-->
+                            <!--<ul>-->
+                                <!--<li>Year: <span>1999 - 2001</span> </li>-->
+                                <!--<li>Concentration/Major: <span>Major in Accounting</span></li>-->
+                                <!--<li>Course Duration: <span>2 Years</span></li>-->
+                                <!--<li>Result: <span>4.00</span></li>-->
+                            <!--</ul>-->
+                            <!--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>&lt;!&ndash; educational-background &ndash;&gt;-->
+
+            <div class="special-qualification: section">
+                <div class="icons">
+                    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                </div>
+                <div class="qualification">
+                    <h3>Tại sao bạn lại thích làm việc ở đây?</h3>
+                    <ul>
+                        <li><span>1.</span> Có lương cho thực tập sinh</li>
+                        <li><span>2.</span> Môi trường năng động, sáng tạo</li>
+                        <li><span>3.</span> Chế độ bảo hiểm tuyệt vời </li>
+                        <li><span>4.</span> Các hoạt team building thường xuyên</li>
+                    </ul>
+                </div>
+            </div><!-- educational-background -->
+
+            <div class="language-proficiency section">
+                <div class="icons">
+                    <i class="fa fa-language" aria-hidden="true"></i>
+                </div>
+                <div class="proficiency">
+                    <h3>Đánh giá</h3>
+                    <ul class="list-inline">
+                        <li>
+                            <h5>Môi trường</h5>
                             <ul>
-                                <li><span class="icon"><i class="fa fa-bolt" aria-hidden="true"></i></span>Posted: 1 day ago</li>
-                                <li><span class="icon"><i class="fa fa-user-plus" aria-hidden="true"></i></span> Job poster: <a href="#">Lance Ladaga</a></li>
-                                <li><span class="icon"><i class="fa fa-industry" aria-hidden="true"></i></span>Industry: <a href="#">Marketing and Advertising</a></li>
-                                <li><span class="icon"><i class="fa fa-line-chart" aria-hidden="true"></i></span>Experience: <a href="#">Entry level</a></li>
-                                <li><span class="icon"><i class="fa fa-key" aria-hidden="true"></i></span>Job function: Advertising,Design, Art/Creative</li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
                             </ul>
-                        </div>
-                        <div class="section company-info">
-                            <h1>Company Info</h1>
+                        </li>
+                        <li>
+                            <h5>Lương</h5>
                             <ul>
-                                <li>Compnay Name: <a href="#">Dropbox Inc</a></li>
-                                <li>Address: London, United Kingdom</li>
-                                <li>Compnay SIze:  2k Employee</li>
-                                <li>Industry: <a href="#">Technology</a></li>
-                                <li>Phone: +1234 567 8910</li>
-                                <li>Email: <a href="#">info@dropbox.com</a></li>
-                                <li>Website: <a href="#">www.dropbox.com</a></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
                             </ul>
-                            <ul class="share-social">
-                                <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        </li>
+                        <li>
+                            <h5>Phúc lợi</h5>
+                            <ul>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
                             </ul>
-                        </div>
-                    </div>
-                </div><!-- row -->
-            </div><!-- job-details-info -->
-        </div><!-- job-details -->
+                        </li>
+                        <li>
+                            <h5>Điều kiện học tập</h5>
+                            <ul>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- language-proficiency -->
+
+            <!--<div class="personal-deatils section">-->
+                <!--<div class="icons">-->
+                    <!--<i class="fa fa-user-secret" aria-hidden="true"></i>-->
+                <!--</div>-->
+                <!--<div class="personal-info">-->
+                    <!--<h3>Personal Deatils</h3>-->
+                    <!--<ul class="address">-->
+                        <!--<li><h5>Full Name </h5> <span>:</span>Jhon Doe</li>-->
+                        <!--<li><h5>Father's Name </h5> <span>:</span>Robert Doe</li>-->
+                        <!--<li><h5>Mother's Name </h5> <span>:</span>Ismatic Roderos Doe</li>-->
+                        <!--<li><h5>Date of Birth </h5> <span>:</span>26/01/1982</li>-->
+                        <!--<li><h5>Birth Place </h5> <span>:</span>United State of America</li>-->
+                        <!--<li><h5>Nationality </h5> <span>:</span>Canadian</li>-->
+                        <!--<li><h5>Sex </h5> <span>:</span>Male</li>-->
+                        <!--<li><h5>Address </h5> <span>:</span>121 King Street, Melbourne Victoria, 1200 USA</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>&lt;!&ndash; personal-deatils &ndash;&gt;-->
+
+            <div class="declaration section">
+                <div class="icons">
+                    <i class="fa fa-hand-peace-o" aria-hidden="true"></i>
+                </div>
+                <div class="declaration-info">
+                    <h3>Vị trí</h3>
+                    <!--<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>-->
+                    <!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni। dolores eos qui ratione voluptatem sequi nesciunt.</p>-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.617440856117!2d106.65407611533848!3d10.763938192330002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752eeca0d84b33%3A0xb98f29e0479d526a!2sVNG+Corporation!5e0!3m2!1sen!2s!4v1516207173437" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div><!-- career-objective -->
+            <!--<div class="buttons">-->
+                <!--<a href="#" class="btn">Update Profile</a>-->
+                <!--<a href="#" class="btn cancle">Cancle</a>-->
+            <!--</div>-->
+            <!--<div class="download-button resume">-->
+                <!--<a href="#" class="btn">Download Resume as doc</a>-->
+            <!--</div>-->
+        </div><!-- resume-content -->
     </div><!-- container -->
-</section><!-- job-details-page -->
-
-<section id="something-sell" class="clearfix parallax-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h2 class="title">Add your resume and let your next job find you.</h2>
-                <h4>Post your Resume for free on <a href="#">Jobs.com</a></h4>
-                <a href="post-resume.html" class="btn btn-primary">Add Your Resume</a>
-            </div>
-        </div><!-- row -->
-    </div><!-- contaioner -->
-</section><!-- something-sell -->
+</section><!-- ad-profile-page -->
 
 <!-- footer -->
 <footer id="footer" class="clearfix">
@@ -552,31 +518,12 @@
         <div class="container">
             <div class="row">
                 <!-- footer-widget -->
-                <div class="col-sm-3">
+                <div class="col-sm-6">
                     <div class="footer-widget">
-                        <h3>Quik Links</h3>
+                        <h3>Links</h3>
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">All Cities</a></li>
-                            <li><a href="#">Help & Support</a></li>
-                            <li><a href="#">Advertise With Us</a></li>
-                        </ul>
-                    </div>
-                </div><!-- footer-widget -->
-
-                <!-- footer-widget -->
-                <div class="col-sm-3">
-                    <div class="footer-widget">
-                        <h3>How to sell fast</h3>
-                        <ul>
-                            <li><a href="#">How to sell fast</a></li>
-                            <li><a href="#">Membership</a></li>
-                            <li><a href="#">Banner Advertising</a></li>
-                            <li><a href="#">Promote your ad</a></li>
-                            <li><a href="#">Jobs Delivers</a></li>
-                            <li><a href="#">FAQ</a></li>
+                            <li><a href="job-list.html">Thông Tin Tuyển Dụng</a></li>
+                            <li><a href="list-company.html">Tất Cả Công Ty</a></li>
                         </ul>
                     </div>
                 </div><!-- footer-widget -->
@@ -609,28 +556,8 @@
             </div><!-- row -->
         </div><!-- container -->
     </section><!-- footer-top -->
-
-    <div class="footer-bottom clearfix text-center">
-        <div class="container">
-            <p>Copyright &copy; <a href="#">Jobs</a> 2017. Developed by <a href="http://themeregion.com/">ThemeRegion</a></p>
-        </div>
-    </div><!-- footer-bottom -->
 </footer><!-- footer -->
 
-<!--/Preset Style Chooser-->
-<div class="style-chooser">
-    <div class="style-chooser-inner">
-        <a href="#" class="toggler"><i class="fa fa-cog fa-spin"></i></a>
-        <h4>Presets</h4>
-        <ul class="preset-list clearfix">
-            <li class="preset1 active" data-preset="1"><a href="#" data-color="preset1"></a></li>
-            <li class="preset2" data-preset="2"><a href="#" data-color="preset2"></a></li>
-            <li class="preset3" data-preset="3"><a href="#" data-color="preset3"></a></li>
-            <li class="preset4" data-preset="4"><a href="#" data-color="preset4"></a></li>
-        </ul>
-    </div>
-</div>
-<!--/End:Preset Style Chooser-->
 
 <!-- JS -->
 <script src="js/jquery.min.js"></script>
