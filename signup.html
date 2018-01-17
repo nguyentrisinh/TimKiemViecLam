@@ -7,7 +7,7 @@
     <meta name="author" content="Theme Region">
    	<meta name="description" content="">
 
-    <title>Jobs | Job Portal / Job Board HTML Template</title>
+    <title>Muggle</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="css/responsive.css">
 	
 	<!-- font -->
-	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300' rel='stylesheet' type='text/css'>
+	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=vietnamese"
+			rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Signika+Negative:400,300,600,700' rel='stylesheet' type='text/css'>
 
 	<!-- icons -->
@@ -55,28 +56,15 @@
 					<a class="navbar-brand" href="index.html"><img class="img-responsive" src="images/logo.png" alt="Logo"></a>
 				</div>
 				<!-- /navbar-header -->
-				
-				<div class="navbar-left">
+
+				<div class="navbar-left" >
 					<div class="collapse navbar-collapse" id="navbar-collapse">
 						<ul class="nav navbar-nav">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="job-list.html">Job list</a></li>
-							<li><a href="details.html">Job Details</a></li>
-							<li><a href="resume.html">Resume</a></li> 
-							<li class="dropdown active"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Pages<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="profile.html">profile</a></li>
-									<li><a href="post-resume.html">Post Resume</a></li>
-									<li><a href="post.html">Job Post</a></li>
-									<li><a href="edit-resume.html">Edit Resume</a></li>
-									<li><a href="profile-details.html">profile Details</a></li>
-									<li><a href="bookmark.html">Bookmark</a></li>
-									<li><a href="applied-job.html">Applied Job</a></li>
-									<li><a href="delete-account.html">Close Account</a></li>
-									<li class="active"><a href="signup.html">Job Signup</a></li>
-									<li><a href="signin.html">Job Signin</a></li>
-								</ul>
-							</li>
+							<li ><a href="index.html">Trang chủ</a></li>
+							<li><a href="job-list.html">Việc làm IT</a></li>
+							<!--<li><a href="details.html">Job Details</a></li>-->
+							<li><a href="list-company.html">Công Ty IT</a></li>
+
 						</ul>
 					</div>
 				</div><!-- navbar-left -->
@@ -85,11 +73,11 @@
 				<div class="nav-right">				
 					<ul class="sign-in">
 						<li><i class="fa fa-user"></i></li>
-						<li><a href="signin.html">Sign In</a></li>
-						<li><a href="signup.html">Register</a></li>
+						<li class="active"><a href="signin.html">Đăng Nhập</a></li>
+						<li><a href="signup.html">Đăng Ký</a></li>
 					</ul><!-- sign-in -->					
 
-					<a href="post.html" class="btn">Post Your Job</a>
+					<!--<a href="post.html" class="btn">Post Your Job</a>-->
 				</div>
 				<!-- nav-right -->
 			</div><!-- container -->
@@ -102,17 +90,17 @@
 				<!-- user-login -->			
 				<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
 					<div class="user-account job-user-account">
-						<h2>Create An Account</h2>
+						<h2>Đăng Ký Tài Khoản</h2>
 							<ul class="nav nav-tabs text-center" role="tablist">
-								<li role="presentation" class="active"><a href="#find-job" aria-controls="find-job" role="tab" data-toggle="tab">Find A Job</a></li>
-								<li role="presentation"><a href="#post-job" aria-controls="post-job" role="tab" data-toggle="tab">Post A Job</a></li>
+								<li role="presentation" class="active"><a href="#find-job" aria-controls="find-job" role="tab" data-toggle="tab">Tìm Việc</a></li>
+								<li role="presentation"><a href="#post-job" aria-controls="post-job" role="tab" data-toggle="tab">Đăng Việc</a></li>
 							</ul>
 
 							<div class="tab-content">
 								<div role="tabpanel" class="tab-pane active" id="find-job">
 									<form action="#">
 										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name" >
+											<input type="text" class="form-control" placeholder="Họ và Tên" >
 										</div>
 										<div class="form-group">
 											<input type="email" class="form-control" placeholder="Email Id">
@@ -121,30 +109,30 @@
 											<input type="password" class="form-control" placeholder="Password">
 										</div>
 										<div class="form-group">
-											<input type="password" class="form-control" placeholder="Confirm Password">
+											<input type="password" class="form-control" placeholder="Nhập Lại Password">
 										</div>
 										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Mobile Number">
+											<input type="text" class="form-control" placeholder="Số Điện Thoại">
 										</div>
 										<!-- select -->
-										<select class="form-control">
+										<!--<select class="form-control">
 											<option value="#">Select City</option>
 											<option value="#">London UK</option>
 											<option value="#">Newyork, USA</option>
 											<option value="#">Seoul, Korea</option>
 											<option value="#">Beijing, China</option>
-										</select><!-- select -->
+										</select>--><!-- select -->
 		
-										<div class="checkbox">
+										<!--<div class="checkbox">
 											<label class="pull-left checked" for="signing"><input type="checkbox" name="signing" id="signing"> By signing up for an account you agree to our Terms and Conditions </label>
-										</div><!-- checkbox -->	
-										<button type="submit" class="btn">Registration</button>	
+										</div>--><!-- checkbox -->
+										<button type="submit" class="btn">Đăng Ký</button>
 									</form>
 								</div>
 								<div role="tabpanel" class="tab-pane" id="post-job">
 									<form action="#">
 										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Employer Name" >
+											<input type="text" class="form-control" placeholder="Tên Công Ty" >
 										</div>
 										<div class="form-group">
 											<input type="email" class="form-control" placeholder="Email Id">
@@ -153,15 +141,15 @@
 											<input type="password" class="form-control" placeholder="Password">
 										</div>
 										<div class="form-group">
-											<input type="password" class="form-control" placeholder="Confirm Password">
+											<input type="password" class="form-control" placeholder="Nhập Lại Password">
 										</div>
 										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Contact Number">
+											<input type="text" class="form-control" placeholder="Điện thoại liên hệ">
 										</div>
-										<div class="checkbox">
+										<!--<div class="checkbox">
 											<label class="pull-left checked" for="signing-2"><input type="checkbox" name="signing-2" id="signing-2">By signing up for an account you agree to our Terms and Conditions</label>
-										</div><!-- checkbox -->	
-										<button type="submit" class="btn">Registration</button>	
+										</div>--><!-- checkbox -->
+										<button type="submit" class="btn">Đăng Ký</button>
 									</form>
 								</div>
 							</div>				

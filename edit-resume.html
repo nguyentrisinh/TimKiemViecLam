@@ -7,7 +7,7 @@
     <meta name="author" content="Theme Region">
    	<meta name="description" content="">
 
-    <title>Jobs | Job Portal / Job Board HTML Template</title>
+    <title>Muggle</title>
 
    <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
@@ -19,7 +19,9 @@
     <link rel="stylesheet" href="css/responsive.css">
 	
 	<!-- font -->
-	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300' rel='stylesheet' type='text/css'>
+	<!--<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300' rel='stylesheet' type='text/css'>-->
+	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=vietnamese"
+			rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Signika+Negative:400,300,600,700' rel='stylesheet' type='text/css'>
 
 	<!-- icons -->
@@ -55,41 +57,31 @@
 					<a class="navbar-brand" href="index.html"><img class="img-responsive" src="images/logo.png" alt="Logo"></a>
 				</div>
 				<!-- /navbar-header -->
-				
-				<div class="navbar-left">
+
+				<div class="navbar-left" >
 					<div class="collapse navbar-collapse" id="navbar-collapse">
 						<ul class="nav navbar-nav">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="job-list.html">Job list</a></li>
-							<li><a href="details.html">Job Details</a></li>
-							<li><a href="resume.html">Resume</a></li> 
-							<li class="dropdown active"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Pages<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="profile.html">Profile</a></li>
-									<li><a href="post-resume.html">Post Resume</a></li>
-									<li><a href="post.html">Job Post</a></li>
-									<li class="active"><a href="edit-resume.html">Edit Resume</a></li>
-									<li><a href="profile-details.html">profile Details</a></li>
-									<li><a href="bookmark.html">Bookmark</a></li>
-									<li><a href="applied-job.html">Applied Job</a></li>
-									<li><a href="delete-account.html">Close Account</a></li>
-									<li><a href="signup.html">Job Signup</a></li>
-									<li><a href="signin.html">Job Signin</a></li>
-								</ul>
-							</li>
+							<li ><a href="index.html">Trang chủ</a></li>
+							<li><a href="job-list.html">Việc làm IT</a></li>
+							<!--<li><a href="details.html">Job Details</a></li>-->
+							<li><a href="list-company.html">Công Ty IT</a></li>
+
 						</ul>
 					</div>
 				</div><!-- navbar-left -->
 				
 				<!-- nav-right -->
-				<div class="nav-right">				
-					<ul class="sign-in">
-						<li><i class="fa fa-user"></i></li>
-						<li><a href="signin.html">Sign In</a></li>
-						<li><a href="signup.html">Register</a></li>
-					</ul><!-- sign-in -->					
-
-					<a href="post.html" class="btn">Post Your Job</a>
+				<div class="nav-right" >
+					<ul class="sign-in" >
+					</ul><!-- sign-in -->
+					<ul class="navbar-nav" style="margin-top: 10px; margin-right: 30px; float: right;" >
+						<li class="dropdown active"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>Võ Thị Thúy Nga<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="post.html" >Đăng thông tin tuyển dụng</a></li>
+								<li><a href="signin.html">Đăng Xuất</a></li>
+							</ul>
+						</li>
+					</ul>
 				</div>
 				<!-- nav-right -->
 			</div><!-- container -->
@@ -101,34 +93,34 @@
 		
 			<div class="breadcrumb-section">
 				<!-- breadcrumb -->
-				<ol class="breadcrumb">
+				<!--<ol class="breadcrumb">
 					<li><a href="index.html">Home</a></li>
 					<li>Edit Resume</li>
-				</ol><!-- breadcrumb -->						
-				<h2 class="title">Edit Resume</h2>
+				</ol>--><!-- breadcrumb -->
+				<h2 class="title" style="text-align: center">Cập nhật Profile</h2>
 			</div><!-- banner -->
 
 			<div class="adpost-details post-resume">
-				<div class="row">	
-					<div class="col-md-8 clearfix">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 clearfix">
 						<form action="#">
 							<fieldset>
 								<div class="section express-yourself">
-									<h4>Express Yourself</h4>
+									<h4>Giới thiệu bản thân</h4>
 									<div class="row form-group">
-										<label class="col-sm-4 label-title">Full Name</label>
+										<label class="col-sm-4 label-title">Họ và Tên</label>
 										<div class="col-sm-8">
-											<input type="text" name="name" class="form-control" placeholder="ex Jhon Doe">
+											<input type="text" name="name" class="form-control" placeholder="Võ Thị Thúy Nga">
 										</div>
 									</div>
 									<div class="row form-group additional-information">
-										<label class="col-sm-4 label-title">Additional Information</label>
+										<label class="col-sm-4 label-title">Thông tin bổ sung</label>
 										<div class="col-sm-8">
-											<textarea class="form-control" placeholder="Address: 123 West 12th Street, Suite 456 New York, NY 123456\n Phone: +012 345 678 910 \n Email: itsme@surzilegeek.com*"></textarea>
+											<textarea class="form-control" placeholder="Địa Chỉ: KTX Khu B, Thủ Đức, TP.HCM\n Phone: 0964297098 \n Email: ngavovtt@gmail.com"></textarea>
 										</div>
 									</div>
 									<div class="row form-group photos-resume">
-										<label class="col-sm-4 label-title">Photos for your Resume</label>
+										<label class="col-sm-4 label-title">Ảnh đại diện</label>
 										<div class="col-sm-8 ">
 											<label class="upload-image left" for="upload-image-one">
 												<input type="file" id="upload-image-one">
@@ -143,14 +135,14 @@
 								</div><!-- postdetails -->
 								
 								<div class="section career-objective">
-									<h4>Career Objective</h4>
+									<h4>Mục tiêu nghề nghiệp</h4>
 									<div class="form-group">
-										<textarea class="form-control" placeholder="Write few lines about your career objective" rows="8"></textarea>		
+										<textarea class="form-control" placeholder="Mô tả ngắn về mục tiêu nghề nghiệp của bạn" rows="8"></textarea>
 									</div>
-									<span>5000 characters left</span>
+									<span>Ít hơn 5000 ký tự</span>
 								</div><!-- career-objective -->
 								
-								<div class="section">
+								<!--<div class="section">
 									<h4>Work History</h4>
 									<div class="row form-group">
 										<label class="col-sm-3 label-title">Compnay Name</label>
@@ -181,58 +173,58 @@
 										<a href="#" class="btn">Add New Exprience</a>
 										<a href="#" class="btn delete">Delete</a>
 									</div>
-								</div><!-- work-history -->
+								</div>--><!-- work-history -->
 								
 								<div class="section education-background">
-									<h4>Education Background</h4>
+									<h4>Thông tin bằng cấp</h4>
 									<div class="row form-group">
-										<label class="col-sm-3 label-title">Institute Name</label>
+										<label class="col-sm-3 label-title">Loại bằng cấp</label>
 										<div class="col-sm-9">
-											<input type="text" name="name" class="form-control" placeholder="ropbox">
+											<input type="text" name="name" class="form-control" placeholder="ví dụ: TOEIC">
 										</div>
 									</div>
 									<div class="row form-group">
-										<label class="col-sm-3 label-title">Degree</label>
+										<label class="col-sm-3 label-title">Trình độ</label>
 										<div class="col-sm-9">
-											<input type="text" name="name" class="form-control" placeholder="Human Resource Manager">
+											<input type="text" name="name" class="form-control" placeholder="ví dụ: TOEIC 800">
 										</div>
 									</div>
 									<div class="row form-group time-period">
-										<label class="col-sm-3 label-title">Time Period</label>
+										<label class="col-sm-3 label-title">Thời hạn bằng cấp</label>
 										<div class="col-sm-9">
 											<input type="text" name="name" class="form-control" placeholder="dd/mm/yy"><span>-</span>
 											<input type="text" name="name" class="form-control pull-right" placeholder="dd/mm/yy">
 										</div>
 									</div>
 									<div class="row form-group job-description">
-										<label class="col-sm-3 label-title">Description</label>
+										<label class="col-sm-3 label-title">Mô tả</label>
 										<div class="col-sm-9">
 											<textarea class="form-control" placeholder="" rows="8"></textarea>		
 										</div>
 									</div>
 									<div class="buttons pull-right">
-										<a href="#" class="btn">Add New Education</a>
-										<a href="#" class="btn delete">Delete</a>
+										<a href="#" class="btn">Thêm thông tin bằng cấp mới</a>
+										<a href="#" class="btn delete">Xóa</a>
 									</div>
 								</div><!-- work-history -->
 
 								<div class="section special-qualification">
-									<h4>Special Qualification</h4>
+									<h4>Khả năng chuyên môn</h4>
 									<div class="form-group item-description">
-										<textarea class="form-control" placeholder="Write few lines about your special qualification" rows="8"></textarea>
+										<textarea class="form-control" placeholder="Mô tả ngắn về khả năng chuyên môn của bạn" rows="8"></textarea>
 									</div>								
 								</div><!-- special-qualification -->								
 								
 								<div class="section language-proficiency">
-									<h4>Language Proficiency:</h4>
+									<h4>Trình độ ngôn ngữ:</h4>
 									<div class="row form-group">
-										<label class="col-sm-3 label-title">Language Name</label>
+										<label class="col-sm-3 label-title">Ngôn ngữ</label>
 										<div class="col-sm-9">
 											<input type="text" name="name" class="form-control" placeholder="English">
 										</div>
 									</div>
 									<div class="row form-group rating">
-										<label class="col-sm-3 label-title">Rating</label>
+										<label class="col-sm-3 label-title">Trình độ</label>
 										<div class="col-sm-9">
 											<div class="rating-star">
 											    <div class="rating">
@@ -260,20 +252,20 @@
 										</div>
 									</div>
 									<div class="buttons pull-right">
-										<a href="#" class="btn">Add New Language</a>
-										<a href="#" class="btn delete">Delete</a>
+										<a href="#" class="btn">Thêm ngôn ngữ mới</a>
+										<a href="#" class="btn delete">Xóa</a>
 									</div>
 								</div><!-- language-proficiency -->
 
 								<div class="section company-information">
-									<h4>Personal Deatils</h4>
+									<h4>Chi tiết về thông tin cá nhân</h4>
 									<div class="row form-group">
-										<label class="col-sm-3 label-title">Full Name</label>
+										<label class="col-sm-3 label-title">Họ và Tên</label>
 										<div class="col-sm-9">
-											<input type="text" name="name" class="form-control" placeholder="Jhon Doe">
+											<input type="text" name="name" class="form-control" placeholder="Võ Thị Thúy Nga">
 										</div>
 									</div>
-									<div class="row form-group">
+									<!--<div class="row form-group">
 										<label class="col-sm-3 label-title">Father's Name</label>
 										<div class="col-sm-9">
 											<input type="text" name="name" class="form-control" placeholder="Robert Doe">
@@ -284,44 +276,45 @@
 										<div class="col-sm-9">
 											<input type="text" name="name" class="form-control" placeholder="Ismatic Roderos Doe">
 										</div>
-									</div>
+									</div>-->
 									<div class="row form-group">
-										<label class="col-sm-3 label-title">Date of Birth</label>
+										<label class="col-sm-3 label-title">Ngày tháng năm sinh</label>
 										<div class="col-sm-9">
-											<input type="text" name="name" class="form-control" placeholder="26/01/1982">
+											<input type="text" name="name" class="form-control" placeholder="14/09/1996">
 										</div>
 									</div>
 									<div class="row form-group">
-										<label class="col-sm-3 label-title">Birth Place</label>
+										<label class="col-sm-3 label-title">Địa chỉ cư trú</label>
 										<div class="col-sm-9">
-											<input type="text" name="name" class="form-control" placeholder="United State of America">
+											<input type="text" name="name" class="form-control" placeholder="KTX Khu B, Thủ Đức, TP.HCM">
 										</div>
 									</div>
 									<div class="row form-group">
-										<label class="col-sm-3 label-title">Nationality</label>
+										<label class="col-sm-3 label-title">Địa chỉ thường trú</label>
 										<div class="col-sm-9">
-											<input type="text" name="name" class="form-control" placeholder="Canadian">
+											<input type="text" name="name" class="form-control" placeholder="Đồng Xuân, Phú Yên">
 										</div>
 									</div>
 									<div class="row form-group">
-										<label class="col-sm-3 label-title">Sex</label>
+										<label class="col-sm-3 label-title">Quốc tịch</label>
 										<div class="col-sm-9">
-											<input type="text" name="name" class="form-control" placeholder="Male">
+											<input type="text" name="name" class="form-control" placeholder="Việt Nam">
 										</div>
 									</div>
 									<div class="row form-group">
-										<label class="col-sm-3 label-title">Address</label>
+										<label class="col-sm-3 label-title">Giới tính</label>
 										<div class="col-sm-9">
-											<input type="text" name="name" class="form-control" placeholder="121 King Street, Melbourne Victoria, 1200 USA">
+											<input type="text" name="name" class="form-control" placeholder="Nữ">
 										</div>
 									</div>
+
 									<div class="buttons pull-right">
-										<a href="#" class="btn">Add New Feild</a>
+										<a href="#" class="btn">Thêm trường mới</a>
 									</div>
 								</div><!-- section -->
 
 								<div class="section special-qualification">
-									<h4>Declaration</h4>
+									<h4>Mô tả về bản thân</h4>
 									<div class="form-group item-description">
 										<textarea class="form-control" placeholder="" rows="8"></textarea>
 									</div>								
@@ -329,13 +322,13 @@
 							</fieldset>
 						</form><!-- form -->
 						<div class="buttons">
-							<a href="#" class="btn">Update Profile</a>
-							<a href="#" class="btn cancle">Cancle</a>
+							<a href="#" class="btn">Cập nhật Thông tin cá nhân</a>
+							<a href="#" class="btn cancle">Hủy</a>
 						</div>							
 					</div>
 				
 					<!-- quick-rules -->	
-					<div class="col-md-4">
+					<!--<div class="col-md-4">
 						<div class="section quick-rules">
 							<h4>Quick rules</h4>
 							<p class="lead">Posting an ad on <a href="#">jobs.com</a> is free! However, all ads must follow our rules:</p>
@@ -352,7 +345,7 @@
 								<li>Do not post ads containing multiple items unless it's a package deal.</li>
 							</ul>
 						</div>
-					</div><!-- quick-rules -->	
+					</div>--><!-- quick-rules -->
 				</div><!-- photos-ad -->				
 			</div>	
 		</div><!-- container -->
