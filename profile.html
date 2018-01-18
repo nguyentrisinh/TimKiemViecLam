@@ -7,7 +7,7 @@
     <meta name="author" content="Theme Region">
    	<meta name="description" content="">
 
-    <title>Jobs | Job Portal / Job Board HTML Template</title>
+    <title>Muggle - User Profile</title>
 
    <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
@@ -17,9 +17,11 @@
     <link rel="stylesheet" href="css/main.css">  
 	<link id="preset" rel="stylesheet" href="css/presets/preset1.css">	
     <link rel="stylesheet" href="css/responsive.css">
-	
+    <link rel="stylesheet" href="css/sinh-custom-style.css">
+
 	<!-- font -->
-	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300' rel='stylesheet' type='text/css'>
+	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=vietnamese"
+			rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Signika+Negative:400,300,600,700' rel='stylesheet' type='text/css'>
 
 	<!-- icons -->
@@ -55,65 +57,56 @@
 					<a class="navbar-brand" href="index.html"><img class="img-responsive" src="images/logo.png" alt="Logo"></a>
 				</div>
 				<!-- /navbar-header -->
-				
-				<div class="navbar-left">
+
+				<div class="navbar-left" >
 					<div class="collapse navbar-collapse" id="navbar-collapse">
 						<ul class="nav navbar-nav">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="job-list.html">Job list</a></li>
-							<li><a href="details.html">Job Details</a></li>
-							<li><a href="resume.html">Resume</a></li> 
-							<li class="dropdown active"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Pages<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li class="active"><a href="profile.html">profile</a></li>
-									<li><a href="post-resume.html">Post Resume</a></li>
-									<li><a href="post.html">Job Post</a></li>
-									<li><a href="edit-resume.html">Edit Resume</a></li>
-									<li><a href="profile-details.html">profile Details</a></li>
-									<li><a href="bookmark.html">Bookmark</a></li>
-									<li><a href="applied-job.html">Applied Job</a></li>
-									<li><a href="delete-account.html">Close Account</a></li>
-									<li><a href="signup.html">Job Signup</a></li>
-									<li><a href="signin.html">Job Signin</a></li>
-								</ul>
-							</li>
+							<li ><a href="index.html">Trang chủ</a></li>
+							<li><a href="job-list.html">Việc làm IT</a></li>
+							<!--<li><a href="details.html">Job Details</a></li>-->
+							<li><a href="list-company.html">Công Ty IT</a></li>
+
 						</ul>
 					</div>
 				</div><!-- navbar-left -->
 				
-				<!-- nav-right -->
-				<div class="nav-right">				
-					<ul class="sign-in">
-						<li><i class="fa fa-user"></i></li>
-						<li><a href="signin.html">Sign In</a></li>
-						<li><a href="signup.html">Register</a></li>
-					</ul><!-- sign-in -->					
 
-					<a href="post.html" class="btn">Post Your Job</a>
+				<div class="nav-right" >
+					<ul class="sign-in" >
+					</ul><!-- sign-in -->
+					<ul class="navbar-nav" style="margin-top: 10px; margin-right: 30px; float: right;" >
+						<li class="dropdown active"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Võ Thị Thúy Nga<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="post.html" >Đăng thông tin tuyển dụng</a></li>
+								<li><a href="signin.html">Đăng Xuất</a></li>
+							</ul>
+						</li>
+					</ul>
 				</div>
+				<!-- nav-right -->
 				<!-- nav-right -->
 			</div><!-- container -->
 		</nav><!-- navbar -->
 	</header><!-- header -->
 
-	<section class=" job-bg page  ad-profile-page">
+	<section class=" job-bg-style page  ad-profile-page">
 		<div class="container">
 			<div class="breadcrumb-section">
-				<ol class="breadcrumb">
+				<!--<ol class="breadcrumb">
 					<li><a href="index.html">Home</a></li>
 					<li>Employee Profile</li>
 				</ol>						
-				<h2 class="title">My Profile</h2>
+				<h2 class="title">My Profile</h2>-->
 			</div><!-- breadcrumb-section -->
 			
 			<div class="job-profile section">	
 				<div class="user-profile">
 					<div class="user-images">
-						<img src="images/user.jpg" alt="User Images" class="img-responsive">
+						<img src="images/imghome/32.jpg"  alt="User Images" class="img-responsive profile-avatar">
 					</div>
 					<div class="user">
-						<h2>Hello, <a href="#">Jhon Doe</a></h2>
-						<h5>You last logged in at: 10-01-2017 6:40 AM [ USA time (GMT + 6:00hrs)]</h5>
+						<h2>Xin chào,<a href="#">Nguyễn Tri Sinh</a></h2>
+						<h5>Lần cuối bạn đăng nhập lúc: 10-01-2018 6:40 AM </h5>
 					</div>
 
 					<div class="favorites-user">
@@ -127,25 +120,22 @@
 				</div><!-- user-profile -->
 						
 				<ul class="user-menu">
-					<li class="active"><a href="profile.html">Account Info </a></li>
-					<li><a href="resume.html">View Resume</a></li>
-					<li><a href="edit-resume.html">Edit Resume</a></li>
-					<li><a href="profile-details.html">Profile Details</a></li>
+					<li class="active"><a href="profile.html">Thông tin Profile </a></li>
+					<li><a href="edit-resume.html">Cập nhật Profile</a></li>
 					<li><a href="bookmark.html">Bookmark</a></li>
-					<li><a href="applied-job.html">applied job</a></li>
-					<li><a href="delete-account.html">Close account</a></li>
+					<li><a href="applied-job.html">Job đã Apply</a></li>
 				</ul>
 			</div><!-- ad-profile -->
 
 			<div class="resume-content">
 				<div class="profile section clearfix">
 					<div class="profile-logo">
-					    <img class="img-responsive" src="images/job/resume.jpg" alt="Image">
+					    <img class="img-responsive" src="images/imghome/32.jpg" alt="Image">
 					</div>
 					<div class="profile-info">
-					    <h1>Jhon Doe</h1>
+					    <h1>Nguyễn Tri Sinh</h1>
 					    <address>
-					        <p>Address: 123 West 12th Street, Suite 456 New York, NY 123456 <br> Phone: +012 345 678 910 <br> Email:<a href="#"> itsme@surzilegeek.com</a></p>
+					        <p>Địa chỉ: 123 Tân Phú, Phú  Nhuận, Hồ Chí Minh <br> Phone:096499999 <br> Email:<a href="#"> sinh@gmail.com</a></p>
 					    </address>
 					</div>					
 				</div><!-- profile -->
@@ -155,13 +145,13 @@
 			            <i class="fa fa-black-tie" aria-hidden="true"></i>
 			        </div>   
 			        <div class="career-info">
-			        	<h3>Career Objective</h3>
-			        	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>
-			        	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni।</p>
+			        	<h3>Mục tiêu nghề nghiệp</h3>
+			        	<p><span>Tôi mong muốn được cống hiến tuổi trẻ được trải nghiệm và học hỏi thêm nhiều kinh nghiệm thực tế để làm ra được những sản phẩm phần mềm chất lượng cao.</span></p>
+			        	<!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni।</p>-->
 			        </div>                                 
 				</div><!-- career-objective -->
 
-				<div class="work-history section">
+				<!--<div class="work-history section">
 			        <div class="icons">
 			            <i class="fa fa-briefcase" aria-hidden="true"></i>
 			        </div>   
@@ -190,36 +180,36 @@
 			        		</li>
 			        	</ul>
 			        </div>                                 
-				</div><!-- work-history -->
+				</div>--><!-- work-history -->
 
 				<div class="educational-background section">
 					<div class="icons">
 					    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
 					</div>	
 					<div class="educational-info">
-						<h3>Education Background</h3>
+						<h3>Thông tin bằng cấp</h3>
 						<ul>
 							<li>
-								<h4>Masters of Arts @ Montana Satet University</h4>
+								<h4>Toiec</h4>
 								<ul>
-									<li>Year: <span>1999 - 2001</span> </li>
-									<li>Concentration/Major: <span>Major in Accounting</span></li>
-									<li>Course Duration: <span>2 Years</span></li>
-									<li>Result: <span>4.00</span></li>
+									<li>Thời hạn bằng cấp: <span>2017 - 2019</span> </li>
+									<li>Loại bằng cấp <span>Chứng chỉ anh văn</span></li>
+									<!--<li>thời hạn: <span>2 Years</span></li>-->
+									<li>Kết quả: <span>800</span></li>
 								</ul>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<p>Kỹ năng Toiec trình độ đọc và viết: Đọc 400, Viết 400.</p>
 							</li>
 							<li>
-								<h4>Bachalor of Arts @ Universty of Bristol</h4>
+								<h4>JLPT</h4>
 								<ul>
-									<li>Year: <span>1999 - 2001</span> </li>
-									<li>Concentration/Major: <span>Major in Accounting</span></li>
-									<li>Course Duration: <span>2 Years</span></li>
-									<li>Result: <span>4.00</span></li>
+									<li>Thời hạn bằng cấp: <span>Không có</span> </li>
+									<li>Loại bằng cấp: <span>Chứng chỉ tiếng nhật</span></li>
+									<!--<li>Course Duration: <span>2 Years</span></li>-->
+									<li>Kết quả: <span>N3</span></li>
 								</ul>
-								<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<p>Có khả năng nghe nói đọc viết tốt. Với kết quả N3 là 479.</p>
 							</li>
-							<li>
+							<!--<li>
 								<h4>Diploma in Graphics Design @ Cincinnati Christian University</h4>
 								<ul>
 									<li>Year: <span>1999 - 2001</span> </li>
@@ -228,7 +218,7 @@
 									<li>Result: <span>4.00</span></li>
 								</ul>
 								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-							</li>
+							</li>-->
 						</ul>
 					</div>				
 				</div><!-- educational-background -->
@@ -238,12 +228,11 @@
 					    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
 					</div>	
 					<div class="qualification">
-						<h3>Special Qualification:</h3>
+						<h3>Khả năng chuyên môn:</h3>
 						<ul>
-							<li><span>1.</span> 5 years+ experience designing and building products In the Design & IT industry.</li>
-							<li><span>2.</span> Passion for people-centered design, solid intuition.</li>
-							<li><span>3.</span> Skilled at any Kind Design Tools. </li>
-							<li><span>4.</span> Hard Worker & Quick Lerner.</li>
+							<li><span>1.</span>Kỹ năng đọc hiểu tiếng anh tốt.</li>
+							<li><span>2.</span> Thành thạo ngôn ngữ C++, Java, Python.</li>
+							<li><span>3.</span> Thành thạo các hệ quản trị cơ sở dữ liệu như MySql server, Sql server. </li>
 						</ul>
 					</div>				
 				</div><!-- educational-background -->
@@ -253,48 +242,29 @@
 			            <i class="fa fa-language" aria-hidden="true"></i>
 			        </div>
 				    <div class="proficiency">
-				    	<h3>Language Proficiency</h3>
+				    	<h3>Trình độ ngôn ngữ</h3>
 				        <ul class="list-inline">
 				            <li>
-				                <h5>English</h5>
+				                <h5>Tiếng Anh</h5>
 				                <ul>
-				                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+				                    <li><i class="fa fa-star" style="color: yellow" aria-hidden="true"></i></li>
+				                    <li><i class="fa fa-star" style="color: yellow" aria-hidden="true"></i></li>
+				                    <li><i class="fa fa-star" style="color: yellow" aria-hidden="true"></i></li>
+				                    <li><i class="fa fa-star" style="color: yellow" aria-hidden="true"></i></li>
+				                    <li><i class="fa fa-star-o" style="color: yellow" aria-hidden="true"></i></li>
 				                </ul>
 				            </li>
 				            <li>
-				                <h5>German</h5>
+				                <h5>Tiếng Nhật</h5>
 				                <ul>
-				                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+				                    <li><i class="fa fa-star"  style="color: yellow" aria-hidden="true"></i></li>
+				                    <li><i class="fa fa-star"  style="color: yellow" aria-hidden="true"></i></li>
+				                    <li><i class="fa fa-star"  style="color: yellow" aria-hidden="true"></i></li>
+				                    <li><i class="fa fa-star-o"  style="color: yellow" aria-hidden="true"></i></li>
+				                    <li><i class="fa fa-star-o"  style="color: yellow" aria-hidden="true"></i></li>
 				                </ul>
 				            </li>
-				            <li>
-				                <h5>Spanish</h5>
-				                <ul>
-				                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-				                </ul>
-				            </li>
-				            <li>
-				                <h5>Latin</h5>
-				                <ul>
-				                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-				                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-				                </ul>
-				            </li>
+
 				        </ul>
 				    </div>
 				</div><!-- language-proficiency -->		
@@ -304,16 +274,14 @@
 				        <i class="fa fa-user-secret" aria-hidden="true"></i>
 				    </div>  
 				    <div class="personal-info">
-				    	<h3>Personal Deatils</h3>
+				    	<h3>Chi tiết thông tin cá nhân</h3>
 				        <ul class="address">
-				            <li><h5>Full Name </h5> <span>:</span>Jhon Doe</li>
-				            <li><h5>Father's Name </h5> <span>:</span>Robert Doe</li>
-				            <li><h5>Mother's Name </h5> <span>:</span>Ismatic Roderos Doe</li>
-				            <li><h5>Date of Birth </h5> <span>:</span>26/01/1982</li>
-				            <li><h5>Birth Place </h5> <span>:</span>United State of America</li>
-				            <li><h5>Nationality </h5> <span>:</span>Canadian</li>
-				            <li><h5>Sex </h5> <span>:</span>Male</li>
-				            <li><h5>Address </h5> <span>:</span>121 King Street, Melbourne Victoria, 1200 USA</li>
+				            <li><h5>Họ và Tên </h5> <span>:</span>Nguyễn Tri Sinh</li>
+				            <li><h5>Ngày tháng năm sinh </h5> <span>:</span>14/09/1996</li>
+				            <li><h5>Địa chỉ cư trú </h5> <span>:</span>KTX Khu B, Thủ Đức, TP.HCM</li>
+				            <li><h5>Địa chỉ thường trú </h5> <span>:</span>Đồng Xuân, Phú Yên</li>
+				            <li><h5>Quốc Tịch </h5> <span>:</span>Việt Nam</li>
+				            <li><h5>Giới Tính </h5> <span>:</span>Nữ</li>
 				        </ul>    	
 				    </div>                               
 				</div><!-- personal-deatils -->	
@@ -323,18 +291,18 @@
 			            <i class="fa fa-hand-peace-o" aria-hidden="true"></i>
 			        </div>   
 			        <div class="declaration-info">
-			        	<h3>Declaration</h3>
-			        	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>
-			        	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni। dolores eos qui ratione voluptatem sequi nesciunt.</p>
+			        	<h3>Mô tả về bản thân</h3>
+			        	<p><span>Tôi tên là Nguyễn Tri Sinh. Tôi 21 tuổi. Dự kiến tốt nghiệp vào tháng 1/2019, chuyên ngành của tôi là Kỹ thuật phần mềm. Sở thích của tôi là đọc sách và du lịch. .</span></p>
+			        	<p>Tôi là người cẩn thận và chăm chỉ. Tôi ham học hỏi và  thích làm việc với mọi người. Tôi dễ thích nghi với môi trường làm việc và chủ động trong công việc. Tôi là người thân thiện và thích giúp đỡ mọi người, Tôi thích giải quyết vấn đề khó và những công việc mang tính thử thách. Tôi khá nghiêm túc trong công việc và tôi có thể chịu đựng được áp lực cao. </p>
 			        </div>                                 
 				</div><!-- career-objective -->									
 				<div class="buttons">
-					<a href="#" class="btn">Update Profile</a>
-					<a href="#" class="btn cancle">Cancle</a>
+					<a href="edit-resume.html" class="btn">Cập nhật Profile</a>
+					<!--<a href="#" class="btn cancle">Hủy</a>-->
 				</div>
-				<div class="download-button resume">
+				<!--<div class="download-button resume">
 					<a href="#" class="btn">Download Resume as doc</a>
-				</div>
+				</div>-->
 			</div><!-- resume-content -->						
 		</div><!-- container -->
 	</section><!-- ad-profile-page -->
@@ -346,31 +314,12 @@
 			<div class="container">
 				<div class="row">
 					<!-- footer-widget -->
-					<div class="col-sm-3">
+					<div class="col-sm-6">
 						<div class="footer-widget">
-							<h3>Quik Links</h3>
+							<h3>Links</h3>
 							<ul>
-								<li><a href="#">About Us</a></li>
-								<li><a href="#">Contact Us</a></li>
-								<li><a href="#">Careers</a></li>
-								<li><a href="#">All Cities</a></li>
-								<li><a href="#">Help & Support</a></li>
-								<li><a href="#">Advertise With Us</a></li>
-							</ul>
-						</div>
-					</div><!-- footer-widget -->
-
-					<!-- footer-widget -->
-					<div class="col-sm-3">
-						<div class="footer-widget">
-							<h3>How to sell fast</h3>
-							<ul>
-								<li><a href="#">How to sell fast</a></li>
-								<li><a href="#">Membership</a></li>
-								<li><a href="#">Banner Advertising</a></li>
-								<li><a href="#">Promote your ad</a></li>
-								<li><a href="#">Jobs Delivers</a></li>
-								<li><a href="#">FAQ</a></li>
+								<li><a href="job-list.html">Thông Tin Tuyển Dụng</a></li>
+								<li><a href="list-company.html">Tất Cả Công Ty</a></li>
 							</ul>
 						</div>
 					</div><!-- footer-widget -->
@@ -397,22 +346,16 @@
 							<form action="#">
 								<input type="email" class="form-control" placeholder="Your email id">
 								<button type="submit" class="btn btn-primary">Sign Up</button>
-							</form><!-- form -->			
+							</form><!-- form -->
 						</div>
 					</div><!-- footer-widget -->
 				</div><!-- row -->
 			</div><!-- container -->
 		</section><!-- footer-top -->
-		
-		<div class="footer-bottom clearfix text-center">
-			<div class="container">
-				<p>Copyright &copy; <a href="#">Jobs</a> 2017. Developed by <a href="http://themeregion.com/">ThemeRegion</a></p>
-			</div>
-		</div><!-- footer-bottom -->
 	</footer><!-- footer -->
 	
 	<!--/Preset Style Chooser--> 
-	<div class="style-chooser">
+	<!--<div class="style-chooser">
 		<div class="style-chooser-inner">
 			<a href="#" class="toggler"><i class="fa fa-cog fa-spin"></i></a>
 			<h4>Presets</h4>
@@ -423,7 +366,7 @@
 				<li class="preset4" data-preset="4"><a href="#" data-color="preset4"></a></li>
 			</ul>
 		</div>
-	</div>
+	</div>-->
 	<!--/End:Preset Style Chooser-->
 	
     <!-- JS -->
